@@ -1,0 +1,12 @@
+<div class="main-component"><!--  Recorro el arreglo items , luego a cada item se lo asigno a la propiedad item para que
+con la respectiva clase se muestre como le indico cada uno -->
+    <h2>Mis items a pagar</h2>
+    <app-item *ngFor="let item of items" [item]='item' 
+    (deleteItem)="deleteItem($event)"
+    (goTotal)="goTotal($event)"
+    > 
+        
+    </app-item>
+
+    <app-total mensaje="El total por pagar es de: " [total]="total" ></app-total>
+</div>

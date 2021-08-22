@@ -1,0 +1,44 @@
+.row{
+    box-sizing:border-box;
+    display:flex;
+    
+}
+.row div{
+    display:flex;
+    padding:5px;
+    align-self:center;
+}
+
+.completed{
+    text-decoration:line-through;
+    color:#ccc;
+}
+.completed .total{
+    color:#ccc;
+}
+
+.title{
+    display:flex;
+    size:14px;
+    font-weight:bold;
+    width:40%;
+}
+.price{
+    size:14px;
+    width:15%;
+}
+.quantity{
+    size:14px;
+    width:15%;
+}
+.total{
+    size:14px;
+    font-weight:bold;
+    color:green;
+    width:15%;
+}
+.actions{
+    size:14px;
+    font-weight:bold;
+    width:15%;
+}

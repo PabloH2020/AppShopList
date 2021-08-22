@@ -1,0 +1,15 @@
+.container{
+    display:flex;
+    padding:5px;
+    justify-content: center;
+    border:2px solid black;
+    border-radius:3px;
+}
+.dentroC{
+    display:block;
+    margin:40px;
+    line-height:50%;
+}
+span.dentroC{
+    text-decoration:underline;
+}
